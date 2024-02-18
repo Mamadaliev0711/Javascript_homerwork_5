@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+#form {
+  display: flex;
+  width: 600px;
+  margin: 0 auto;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 50px;
+  margin-bottom: 40;
+}
+
+.field {
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+textarea {
+  resize: none;
+}
+
+.card {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+}
+.button_delete {
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 600px;
+  margin-left: 460px;
+  margin-bottom: 20px;
+}
